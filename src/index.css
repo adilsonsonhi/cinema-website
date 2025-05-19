@@ -1,0 +1,80 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: "NeoSansPro[REGULAR]";
+  src: url("./assets/fonts/neo-sans-pro/NeoSansProRegular.OTF")
+    format("opentype");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "NeoSansPro[MEDIUM]";
+  src: url("./assets/fonts/neo-sans-pro/NeoSansProMedium.OTF")
+    format("opentype");
+  font-weight: medium;
+  font-style: medium;
+}
+
+body {
+  color: #fff;
+  background-color: #080808;
+}
+h1,
+h2 {
+  font-family: "NeoSansPro[REGULAR]", sans-serif;
+}
+p {
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+}
+
+.neo-regular {
+  font-family: "NeoSansPro[REGULAR]", sans-serif;
+}
+.neo-medium {
+  font-size: "NeoSansPro[MEDIUM]", sans-serif;
+  font-weight: 600;
+}
+.hero-bg {
+  width: 70%;
+  position: absolute;
+  top: 0;
+  right: 0;
+  /* z-index: -1; */
+}
+
+.z-index-1 {
+  z-index: -1;
+}
+
+.ad-line-1 {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  height: auto;
+  position: relative;
+  -webkit-line-clamp: 1;
+}
+.ad-line-2 {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  height: auto;
+  position: relative;
+  -webkit-line-clamp: 2;
+}
+.ad-line-3 {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  height: auto;
+  position: relative;
+  -webkit-line-clamp: 3;
+}
