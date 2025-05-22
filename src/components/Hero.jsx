@@ -36,7 +36,7 @@ const Hero = () => {
           advance();
           return 0;
         }
-        return prev + 1.25; // 100 / (8s * 10)
+        return prev + 0.666; // 100 / (15s * 10)
       });
     }, 100);
 
